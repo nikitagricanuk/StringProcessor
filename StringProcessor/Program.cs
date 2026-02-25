@@ -7,3 +7,12 @@ class Program
         Console.WriteLine("Hello, World!");
     }
 }
+
+public static class StringProcessor
+{
+    public static string InputString()
+    {
+        Console.Write("Enter a string: ");
+        return Console.ReadLine();
+    }
+}
